@@ -32,6 +32,7 @@ Method: GET
 http://localhost:8000/api/purchase-items
 
 Method : POST
+--------------
 Headers : Accept:application/json
 
 body : {
@@ -43,6 +44,7 @@ body : {
 http://localhost:8000/api/user-dressup
 
 Method: PATCH
+-------------
 Headers : Accept:application/json
 
 body : {
