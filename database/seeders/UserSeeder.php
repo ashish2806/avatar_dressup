@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 class UserSeeder extends Seeder
 {
+    
     /**
      * Run the database seeds.
      *
@@ -15,12 +16,27 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([[
-            'name' => 'abc',
-            'balance' => 100
-        ],[
-            'name' => 'xyz',
-            'balance' => 200
-        ]]);
+        DB::table('users')->insert([
+            [
+                'name' => fake()->name(),
+                'balance' => 100
+            ],
+            [
+                'name' => fake()->name(),
+                'balance' => 200
+            ],
+            [
+                'name' => fake()->name(),
+                'balance' => 150
+            ],
+            [
+                'name' => fake()->name(),
+                'balance' => 200
+            ],
+            [
+                'name' => fake()->name(),
+                'balance' => 200
+            ]
+    ]);
     }
 }

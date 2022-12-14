@@ -19,6 +19,6 @@ class Category extends Model
     }
 
     public function getImageurlAttribute() {
-        return URL::asset('storage/images/'.$this->image);
+        return URL::asset('storage/images/categories/'.$this->image);
     }
 }

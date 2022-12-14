@@ -23,6 +23,6 @@ class Item extends Model
     }
 
     public function getImageurlAttribute() {
-        return URL::asset('storage/images/'.$this->image);
+        return URL::asset('storage/images/items/'.$this->image);
     }
 }
