@@ -25,7 +25,7 @@ class PurchaseItem {
                     DB::commit();
                     $arrMixResult['success'] = true;
                     $arrMixResult['message'] ="Purchase Successfully";
-                    $arrMixResult['data'] = [];
+                    $arrMixResult['data'] = [$objUser];
                 } else {
                     $arrMixResult['success'] = false;
                     $arrMixResult['errors'] = 'Not Enough Balance';
