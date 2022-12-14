@@ -1,6 +1,11 @@
 
 ## About DressUp Avatar
 
+## php 8.1.12
+
+## Laravel 9.43.0
+
+
 ## steps to follow
 
 - git clone https://github.com/ashish2806/avatar_dressup or download zip
