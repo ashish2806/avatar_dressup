@@ -19,15 +19,15 @@
   considering your server starting at localhost:8000
 
 End Points:
-
+-------------
 http://localhost:8000/api/categories
 
 Method : GET
-
+--------------
 http://localhost:8000/api/current-avatar-state/2
 
 Method: GET
-
+----------------
 
 http://localhost:8000/api/purchase-items
 
@@ -39,7 +39,7 @@ body : {
     "user_id": 2
 }
 
-
+---------------------
 http://localhost:8000/api/user-dressup
 
 Method: PATCH
